@@ -1,0 +1,130 @@
+
+    *{
+    padding: 3px;
+    margin: 3px;
+    box-sizing: border-box;
+    font-family: 'poppins',sana-serif;
+
+}
+body{
+background-color: blanchedalmond;
+}
+h1{
+    font-size: 5sm;
+    font-weight: 1500;
+    color:black;
+    letter-spacing: spx;
+    cursor: pointer;
+    background-color: white;
+    height:40px;
+    width: 1300px;
+    border-radius: 50px;
+}
+
+
+h1{
+    transition: 0.5s;
+
+}
+h1:hover span:nth-child(1){
+    margin-left: 50px;
+}
+h1:hover span:nth-child(1)::after
+{
+content: "'";
+}
+h1:hover span:nth-child(2)
+{
+    margin-left: 100px;
+    text-shadow:  0 0 10px black;
+}
+h1:hover span
+{
+    color:pink;
+text-shadow:  0 0 10px black;
+           
+}
+nav {
+    width: 100%;
+    min-width: 60px;
+    height: 50px;
+    display :flex;
+    justify-content: space-around;
+   margin: auto;
+   background-color:white;
+   color: #000;
+}
+
+nav a
+{ 
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    text-transform: capitalize;
+    colore:white;
+    font-family: sans-serif;
+   color: #000;
+transition: 0.3s;
+-webkit-animation: 0.3s;
+-moz-animation: 0.3s;
+-moz-animation: 0.3s;
+-o-animation: 0.3s;
+padding: 0 10px;
+
+}
+
+a::before{
+    content: '';
+    position: absolute;
+    left: 0%;
+    height: 5px;
+    background-color:pink;
+width: 0%;
+bottom: -7px;
+transition: 0.3s;
+-webkit-animation: 0.3s;
+-moz-animation: 0.3s;
+-moz-animation: 0.3s;
+-o-animation: 0.3s;
+}
+
+
+a:hover{
+    color: pink;
+}
+a:hover::before{
+    width: 100%;
+}
+ul{
+color:rgb(119, 116, 116);
+width: 100%;
+display: -ms-flexbox;
+justify-content: space-between;
+flex-wrap: wrap-reverse;
+background-size: contain;
+
+border-radius: 40px;
+cursor: pointer;
+box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),-5px -5px 30px 7px rgba(0, 0, 0, 0.22),
+transition 0.4s;
+}
+ul  {
+background-size: contain;
+border-radius: 40px;
+cursor: pointer;
+box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),-5px -5px 30px 7px rgba(0, 0, 0, 0.22),
+transition 0.4s;
+background-size: contain;
+}
+ul:hover{
+color: #000;
+transform: scale(.9,0.9);
+box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25),
+-5px -5px 40px 15px rgba(0, 0, 0, 0.22);
+}
+
+
+
+
+
+

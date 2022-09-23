@@ -1,0 +1,62 @@
+*{
+    padding: 3px;
+    margin: 3px;
+    box-sizing: border-box;
+    font-family: 'poppins',sana-serif;
+
+}
+body{
+background-color: blanchedalmond;
+}
+h1{
+    font-size: 5sm;
+    font-weight: 1500;
+    color:black;
+    letter-spacing: spx;
+    cursor: pointer;
+    background-color: white;
+    height:40px;
+    width: 1300px;
+    border-radius: 50px;
+}
+
+
+h1{
+    transition: 0.5s;
+
+}
+h1:hover span:nth-child(1){
+    margin-left: 50px;
+}
+h1:hover span:nth-child(1)::after
+{
+content: "'";
+}
+h1:hover span:nth-child(2)
+{
+    margin-left: 100px;
+    text-shadow:  0 0 10px black;
+    width: 100%;
+    min-width: 60px;
+    height: 50px;
+  
+}
+h1:hover span
+{
+    color:pink;
+text-shadow:  0 0 10px black;
+text-decoration: none;
+font-size: 30px;
+position: relative;
+text-transform: capitalize;
+colore:white;
+font-family: sans-serif;
+
+}
+
+
+video{
+
+    width: 1000px;
+
+}
